@@ -12,7 +12,9 @@ Full schema → `/docs/DATABASE_SCHEMA.txt`
 
 | Module                        | Business Focus                                      | Key Deliverables / Queries                              | Status     |
 |-------------------------------|-----------------------------------------------------|---------------------------------------------------------|------------|
-| Dimension Exploration         | Profiling customers, routes, facilities, trucks, drivers | Counts, distributions, geographic spread, age profiles  | Complete   |
+| Dimension Exploration         | Profiling customers, routes, facilities, trucks, drivers | Distribution, completeness, geographic spread, age profiles  | Complete   |
+| Loads & Revenue               | Load volume, revenue by customer/booking type, expected vs actual | Big numbers by booking type, revenue concentration, cost overrun/underrun | Complete   |
+| Trips & Utilization           | Trip performance, driver/truck/trailer usage, MPG, idle time | Equipment sharing ratios, driver MPG/idle ratio, miles/efficiency gaps | Complete   |
 | Delivery Events               | On-time performance, detention time, facility trends | Big picture quality check, monthly trends, facility hierarchy (CUBE), quarterly QoQ change in wasted time | Complete   |
 | Fuel Analysis                 | Driver overpayment, station pricing, purchase vs trip variance | Lost money USD, weighted avg price comparison, outliers | Complete   |
 | Safety Incidents              | Risky routes, damage cost trends                    | Hotspots by origin-destination, MoM cost change         | Complete   |
