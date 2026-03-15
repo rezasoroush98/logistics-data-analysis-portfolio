@@ -3,7 +3,7 @@
 SQL-based analysis of a logistics company's operations, with a focus on fuel cost control, delivery performance, safety incidents, maintenance efficiency, and route risk.
 
 **Dataset**:Synthetic Logistics Operations Database (2022-2024)  (14 tables: facts like trips, fuel_purchases, delivery_events, safety_incidents, maintenance_records; dimensions like customers, routes, facilities, trucks, drivers).  
-Full schema → [docs/DATABASE_SCHEMA.txt]
+Full schema → `/docs/DATABASE_SCHEMA.txt`
 
 **Main tools**: PostgreSQL (SQL), Power BI (dashboards in progress)  
 **Goal**: Identify cost savings, operational inefficiencies, safety hotspots, and performance trends.
